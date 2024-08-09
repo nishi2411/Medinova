@@ -1,0 +1,54 @@
+<div class='form-group'>
+                    <label for=''>first name</label>
+                    <input type='text' id='fname' required placeholder='Enter your first name'  class='form-control' name='fname' onKeyPress='return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)' pattern='[A-Z a-z  ]{3,}' title='Minimum 3 Character Required'>
+                  </div>
+               
+                  <div class='form-group'>
+                <label for=''>Middle name</label>
+                <input type='text' id='mname' required placeholder='Enter your middle name' class='form-control' name='mname'onKeyPress='return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)' pattern='[A-Z a-z  ]{3,}' title='Minimum 3 Character Required'>
+                  </div>
+
+                <div class='form-group'>
+                <label for=''>Last name</label>
+                <input type='text' id='lname'required  placeholder='Enter your last name' class='form-control' name='lname' onKeyPress='return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)' pattern='[A-Z a-z  ]{3,}' title='Minimum 3 Character Required'>
+                  </div>
+                
+                <div class='form-group'>
+                <label for=''>Email</label>
+                    <input type='text' name='email' class='form-control' id='email' >
+                  </div>
+                
+
+                <!-- <div class='form-group'>
+                <label for=''>Last name</label>
+                    <input type='text' name='lname' class='form-control' id='certi' >
+                  </div> -->
+                
+                <div class='form-group '>
+        <label for='bg'>Blood Group</label>
+        <select required id='bg' name='bg' class='form-control'>
+          <option value='' selected disabled >Select your blood group</option>
+          <option value='A'>A</option>
+          <option value='A-'>A-</option>
+          <option value='B'>B</option>
+          <option value='B-'>B-</option>
+          <option value='AB'>AB</option>
+          <option value='AB-'>AB-</option>
+          <option value='O'>O</option>
+          <option value='O-'>O-</option>
+          
+        </select>
+      </div>
+
+      <div class='form-group '>
+       <b> <label for='date'>Birth Date</label></b>
+        <input type='date' id='date' placeholder='Select your date' name='dob' required class='form-control'>
+      </div>
+      <div class='form-group '>
+        <b><label for='gender'>Gender</label></b>
+        <select id='gender' name='gender' class='form-control'>
+          <option value='' selected disabled>Select your gender</option>
+          <option value='Male'>Male</option>
+          <option value='Female'>Female</option>
+          <option value='Other'>Other</option>
+        </select>
